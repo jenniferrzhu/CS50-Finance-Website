@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <form action="/history" method="post">
+        <div>
+            Current Cash Balance: {{cash | usd}} <!--cash-->
+        </div>
+        <table>
+            <tr>
+                <th> Date/Time </th>
+                <th> Action </th>
+                <th> Symbol </th>
+                <th> Shares </th>
+                <th> Amount </th>
+            </tr>
+            {% for stock in histories %}
+                <tr>
+                    <td>{{stock.date}}</td>
+                    <td>{{stock.action}}</td>
+                    <td>{{stock.name}}</td>
+                    <td>{{stock.shares}}</td>
+                    <td>{{stock.price}}</td>
+                </tr>
+            {% endfor %}
+        </table>
+    </form>
+{% endblock %}
