@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+    <form action="/index" method="post">
+        <div>
+            Current Cash Balance: {{cash}} <!--cash-->
+        </div>
+        <table>
+            <tr>
+                <th> Stocks </th> <!-- name -->
+                <th> Shares </th> <!-- shares -->
+                <th> Current PPS </th> <!-- pps -->
+                <th> Current Val </th>  <!-- price -->
+            </tr>
+            {% for stock in portfolio %}
+                <tr>
+                    <td>{{stock.name}}</td>
+                    <td>{{stock.shares}}</td>
+                    <td>{{stock.pps}}</td>
+                    <td>{{stock.price}}</td>
+                </tr>
+            {% endfor %}
+        </table>
+        <div>
+            Grand Total: {{total_cash}}
+        </div>
+    </form>
+{% endblock %}
