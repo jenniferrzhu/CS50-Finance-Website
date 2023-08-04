@@ -49,4 +49,4 @@ All buy and sell transactions are listed in a table summary showing the date and
 <img width="500" alt="Screenshot 2023-08-03 at 11 02 01 PM" src="https://github.com/jenniferrzhu/Stock-Website/assets/90798447/b79d3480-3a3c-4f32-9e57-1fef533d9c03">
 
 ---
-Please note that the Login and Logout functions and all functions in helpers.py came with the assignment starter code and are not mine. Starter code ©2023 David J. Malan/ Harvard
+Please note that the **Login** and **Logout** functions and all functions in **helpers.py** came with the assignment starter code and are not mine. Starter code ©2023 David J. Malan/ Harvard
