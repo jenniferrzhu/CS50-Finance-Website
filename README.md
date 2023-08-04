@@ -22,7 +22,7 @@ This homepage display shows the user's stocks owned, number of shares, original 
 
 By entering in a company's ticker symbol, users can see the current value of the share. An apology will be returned if the required field is left empty or the entered symbol is invalid.
 
-<img width="243" alt="Screenshot 2023-08-03 at 10 57 54 PM" src="https://github.com/jenniferrzhu/Stock-Website/assets/90798447/4e4b8b63-e834-4adc-af29-7b83a0e8157e">
+<img width="200" alt="Screenshot 2023-08-03 at 10 57 54 PM" src="https://github.com/jenniferrzhu/Stock-Website/assets/90798447/4e4b8b63-e834-4adc-af29-7b83a0e8157e">
 
 <img width="151" alt="Screenshot 2023-08-03 at 10 58 01 PM" src="https://github.com/jenniferrzhu/Stock-Website/assets/90798447/75b7be91-8d67-491d-a810-cd457c8be6e8">
 
