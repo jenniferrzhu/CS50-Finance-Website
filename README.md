@@ -22,6 +22,11 @@ This homepage display shows the user's stocks owned, number of shares, original 
 
 By entering in a company's ticker symbol, users can see the current value of the share. An apology will be returned if the required field is left empty or the entered symbol is invalid.
 
+<img width="243" alt="Screenshot 2023-08-03 at 10 57 54 PM" src="https://github.com/jenniferrzhu/Stock-Website/assets/90798447/5d014e50-09b 
+<img width="151" alt="Screenshot 2023-08-03 at 10 58 01 PM" src="https://github.com/jenniferrzhu/Stock-Website/assets/90798447/75b7be91-8d67-491d-a810-cd457c8be6e8">
+4-4c14-85c9-fd8685f0f981">
+
+
 ### Buy
 
 Users can 'buy' stocks by submitting. a form with the ticker symbol and specified number of shares. If the symbol is valid, the number of shares is a positive interger, and the user can afford the requested purchase, the transaction will be successful, which is indicated by a redirect to the index where the new purchase is recorded in the table. Otherwise, an error will appear. 
