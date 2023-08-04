@@ -1,1 +1,3 @@
-# Stock-Website
+# Stock Website
+
+Project for ![Week 9] (https://cs50.harvard.edu/x/2023/psets/9/finance/) of Harvard's CS50: Introduction to CS
